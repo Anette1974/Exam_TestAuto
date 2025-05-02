@@ -35,6 +35,5 @@ def step_then_my_books(context):
 
 @then(u'kontrollerar jag att min senast favoritmarkerad bok finns i listan')
 def step_then_verify_favorit_book(context):
-    #my_book_cat = context.page.get_by_role('listitem')
     my_book_cat = context.page.get_by_test_id("fav-Min katt är min chef")
     expect(my_book_cat).to_have_text("Min katt är min chef")

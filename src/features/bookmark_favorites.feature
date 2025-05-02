@@ -1,4 +1,4 @@
-@wip
+@fav
   Feature: Hantera favoriter
 
     Scenario: Favoritmarkera böcker

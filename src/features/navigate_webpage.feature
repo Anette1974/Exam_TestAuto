@@ -1,4 +1,4 @@
-
+@nav
 
 
   Feature: Navigera på webbsidan

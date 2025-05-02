@@ -13,10 +13,10 @@ def before_scenario(context, scenario):
 
 def after_scenario(context, scenario):
     if context.page:
-        context.page.close()
+       context.page.close()
 
 def after_all(context):
     if context.browser:
-        context.browser.close()
+       context.browser.close()
     if context.playwright:
-        context.playwright.stop()
+       context.playwright.stop()

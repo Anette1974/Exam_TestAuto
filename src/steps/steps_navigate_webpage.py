@@ -1,12 +1,6 @@
 
-import re
-from behave import given, when, then
+from behave import when, then
 from playwright.sync_api import expect
-
-@given(u'Jag navigerar till webbsidan "Läslistan"')
-def step_given_start(context):
-    context.page.goto(context.base_url)
-    expect(context.page).to_have_title(re.compile("Läslistan"))
 
 @when(u'jag klickar på knappen "Lägg till bok"')
 def step_when_add_book_button(context):
@@ -32,8 +26,8 @@ def step_then_my_books_disabled(context):
 def step_then_catalogue(context):
     catalog_button = context.page.get_by_test_id("catalog")
     catalog_button.click()
-    context.catalogue_button = catalog_button
+    context.catalog_button = catalog_button
 
 @then(u'ska knappen "Katalog" ändra färg och inte gå att klicka på')
 def step_then_catalogue_disabled(context):
-    expect(context.catalogue_button).to_be_disabled()
+    expect(context.catalog_button).to_be_disabled()

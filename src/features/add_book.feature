@@ -1,4 +1,4 @@
-@wip
+@add
 
   Feature: Lägga till bok
 

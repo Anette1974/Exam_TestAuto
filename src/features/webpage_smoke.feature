@@ -1,4 +1,5 @@
 @smoke
+
   Feature: Smoke test för att se om webbsidan laddas
 
     Scenario: Webbsidan laddas

@@ -1,4 +1,7 @@
+# US3: Som en användare vill jag kunna favoritmarkera vissa böcker för att jag ska kunna se dem på sidan "Mina böcker"
+# US6: Som en användare ska jag kunna se böcker som jag har favoritmarkerat på sidan "Mina böcker"
 @fav
+
   Feature: Hantera favoriter
 
     Scenario: Favoritmarkera böcker

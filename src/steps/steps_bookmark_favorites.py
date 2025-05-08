@@ -1,4 +1,5 @@
 import re
+from behave import when, then
 from playwright.sync_api import expect
 
 @when(u'jag är på sidan "Katalog"')

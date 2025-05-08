@@ -1,3 +1,6 @@
+# US4: Som en användare vill jag kunna lägga till böcker med Titel och författare så att jag kan se de i min "Katalog"
+# US5: Som en användare vill jag inte att det går att spara en bok om fälten Titel eller författare är tomt.
+
 @add
 
   Feature: Lägga till bok

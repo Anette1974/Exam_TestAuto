@@ -1,4 +1,5 @@
 import re
+from behave import then
 from playwright.sync_api import expect
 
 @then(u'Jag klickar på fältet "Titel" och lägger till en boktitel')

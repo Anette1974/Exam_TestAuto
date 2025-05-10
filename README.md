@@ -1,6 +1,6 @@
 # Exam_TestAuto
 
-GitHub repository: https://github.com/Anette1974/Exam_TestAuto.git
+GitHub repository för att köra programmet finns på: https://github.com/Anette1974/Exam_TestAuto.git
 
 Installera Behave, Playwright och Python 3.11
 
